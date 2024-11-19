@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prohect Six</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:wght@400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/carto.js/4.2.2/carto.min.js" integrity="sha512-xp1M+27c7QIPwSvnRX8OVkV/XmCpFjEGESshb0VRq+wzo91sFmWvdW4C0yEp+54RMkVxjpGBPPs/ZMBMN5dF4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="./project6.css">
+</head>
+<body>
+         <!-- Header Section Start -->
+     <header>
+        <nav class="main-header">
+            <div class="Header-body">
+                    <div class="header-logo">
+                          <img src="../project six/logo1.1.png" alt="logo">
+                    </div>
+                     <div class="header-main-logo">
+                           <img src="../project six/logo2.png" alt="Main Logo">
+                    </div>
+
+                    <div class="header-menu-items">
+
+                        <!-- <a href="#">Shop All</a>
+                        <a href="#">Letest Arrival</a> -->
+                        <ul>
+                            <li><a href="#">Shop All</a></li>
+                            <li><a href="#">Letest Arrival</a></li>
+                            
+                        </ul>
+                    </div>
+                
+                
+            </div>
+            <div class="right-side">
+                <div class="cart-icon">
+                    <i class="fa-brands fa-shopify"></i>
+                </div>
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+
+            
+        </nav>
+     </header>
+    <!-- Header Section End -->
+
+    <!-- Product Section Start -->
+
+    <main>
+        <section>
+            <!-- product Main image Start-->
+          <div class="product-wrapper">
+                  <div class="product-img-wrapper" >
+                       <div class="product-img">
+                        <img src="./main pic 1.webp" alt="product main image">
+                       </div>
+                         <!-- Trumbline Image start-->
+                        <div class = "Trumbline-Image-wrapper">
+                        <div class="Trumbline-Image">
+                            <img src="./t-pic1.jpg" alt="Trumbline-Image-1">
+                        </div>
+                        <div class="Trumbline-Image">
+                            <img src="./t-pic2.jpg" alt="Trumbline-Image-2">
+                        </div>
+                        <div class="Trumbline-Image">
+                            <img src="./t-pic3.jpg" alt="Trumbline-Image-3">
+                        </div>
+                        <div class="Trumbline-Image">
+                            <img src="./t-pic4.jpg" alt="Trumbline-Image-4">
+                        </div>
+                        <!-- Trambline Image end -->
+                   </div>
+                  </div>
+                 <!-- Product Info Section -->
+                   <div class="product-details">
+                     <h2>Voyager Hoodie</h2>
+                  <!-- Price Section -->
+                   <div class="price"> $76 <span class="discount">$95</span>
+             <span class="discount-rate">20% OFF</span>
+                   </div>
+                 <!-- Rating Section -->
+                   <div class="rating">
+               <span class="stars">★★★★☆</span> 
+               <span>4.1</span> 
+               <span><a href="#">see all 62 reviews</a></span>
+                   </div>
+
+                  <p>The Voyager Hoodie is for the explorer at heart. Its durable <br> fabric and roomy pockets are perfect for adventurers.</p>
+      <!-- Available Colors Section -->
+           <div class="quantity-section">
+                   <label for="colors">Available Colors:</label>
+                <div class="color-options">
+                    <span class="green"></span>
+                    <span class="orange"></span>
+                </div>
+           </div>
+
+<!-- Available Sizes Section -->
+             <div class="quantity-section">
+                     <label for="sizes">Available Sizes:</label>
+                 <div class="size-options">
+                      <button>XS</button>
+                      <button>S</button>
+                      <button>M</button>
+                      <button>L</button>
+                      <button>XL</button>
+                 </div>
+             </div>
+             <!-- Quantity Section -->
+              <div class="quantity-section">
+                  <label for="quantity">Quantity:</label>
+                  <input type="number" id="quantity" name="quantity" value="1" min="1">
+              </div>
+               <!-- Add to Cart Button -->
+               <button class="add-to-cart">Add to Cart</button>
+               <!-- Features Section -->
+    <div class="features">
+        <h2 class="section-title">Features</h2>
+        <ul class="feature-list">
+            <li>Designed for comfort and durability.</li>
+            <li>Soft, breathable fabric ideal for travel and adventure.</li>
+            <li>Large front pocket and adjustable hood.</li>
+            <li>Minimalist design pairs well with any style.</li>
+        </ul>
+    </div>
+
+    <!-- Fabric and Care Section -->
+    <div class="fabric-care">
+        <h2 class="section-title">Fabric & Care</h2>
+        <ul class="feature-list">
+            <li>Machine wash cold on a gentle cycle.</li>
+            <li>Tumble dry low or hang to dry.</li>
+            <li>Do not use fabric softeners or bleach.</li>
+            <li>Iron on a low setting if necessary.</li>
+        </ul>
+    </div>
+
+    <!-- Shipping Section -->
+    <div class="shipping">
+        <h2 class="section-title">Shipping</h2>
+        <ul class="feature-list">
+            <li>Free standard shipping on all orders.</li>
+            <li>Expedited shipping available at an additional cost.</li>
+            <li>Packaged in biodegradable materials to reduce environmental impact.</li>
+        </ul>
+     </div>
+          </div>    
+        </section>
+    </main>   
+     <!-- Discover Time Elegance Start -->
+      <div>
+          <div class="discover">
+             <H1>
+                Discover timeless elegance
+             </H1>
+             <p>Libero assumenda vero facilis ad sint pariatur. Saepe esse aperiam illum. Accusantium necessitatibus ut omnis tempora amet ipsa accusamus facilis ad sint pariatur. dolores aut non nostrum suscipit unde sit quia repellendus, tempore quisquam, quidem natus amet consectetur adipisicing elit. Libero assumenda vero facilis!</p>
+          </div>
+          <nav class="tabs">
+            <ul>
+                <li>Sustainbily</li>
+                <li>Comport</li>
+                <li>Durability</li>
+                <li>Versalitity</li>
+            </ul>
+         </nav>
+         <hr>
+         <section class="content">
+            <div class="lady-jacket">
+                <img src="./lady 2.jpeg" alt="Lady-jacket">
+            </div>
+            <div class="details">
+                <h2>Eco-Frindly Choice</h2>
+                <p>The Merlin Heritage Collection seamlessly blends classic styling with modern protection to create a versatile selection of motorcycle clothing. We use a range of different market-leading materials, including Halley Stevensons® Waxed Cotton, D3O® armour and Reissa® waterproofing to ensure the highest quality. Our heritage collection also expands into leather garments for retro riders who want the old-school looks minus the signature feel of waxed cotton. Combining the best of British-made motorcycle clothing, our Heritage line offers a wide variety for both men and women.</p>
+                
+                <div class="symbol-items">
+                    <div class="feature">
+                        <span>♻️</span>
+                        <p>Recycled Materials</p>
+                    </div>
+                    <div class="feature">
+                        <span>🌍</span>
+                        <p>Carbon Neutral</p>
+                    </div>
+                    <div class="feature">
+                        <span>🎨</span>
+                        <p>Low Impact Dye</p>
+                    </div>
+                    <div class="feature">
+                        <span>💧</span>
+                        <p>Water Conservation</p>
+                    </div>
+                </div>
+            </div>
+
+         </section>
+            
+     <!-- Discover Time Elegance End -->
+      <!-- In This Collection page start -->
+       <div class="container">
+         <section class="collection">
+            <h2>In this collection</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="./3rdmanjacket1" alt="Man-Jacket-1">
+                    <p class="color">Black</p>
+                    <h3>Urban Drift Bucket Hat</h3>
+                    <p class="price">$15</p>
+                    <div class="color-indicators">
+                        <span class="indicator active"></span>
+                    </div>
+
+                </div>
+                <div class="product">
+                    <img src="./3rdwomenjacket1" alt="womman-Jacket-1">
+                    <p class="color">Black</p>
+                    <h3>Metro Hoodie</h3>
+                    <p class="price">$81<span class="original-price">$90</span></p>
+                    <div class="color-indicators">
+                        <span class="indicator active"></span>
+                    </div>
+
+                </div>
+                <div class="product">
+                    <img src="./3rdmanjacket2" alt="Man-Jacket-2">
+                    <p class="color">Blue</p>
+                    <h3>Azure Attitude Shades</h3>
+                    <p class="price">$46</p>
+                    <div class="color-indicators">
+                        <span class="indicator active"></span>
+                    </div>
+
+                </div>
+                <div class="product">
+                    <img src="./3rdwomenjacket2.jpg" alt="women-jacket-2">
+                    <p class="color">White</p>
+                    <h3>City Quilted Jacket</h3>
+                    <p class="price">$108 <span class="original-price">$120</span></p>
+                    <div class="color-indicators">
+                        <span class="indicator active"></span>
+                    </div>
+                 </div>
+            </div>
+
+         </section>
+       </div>
+
+      <!-- In This Collection page end -->
+       <!-- Footer Section Start -->
+        <footer class="footer-area">
+            <div class="newsletter">
+                <h3>Join Our Newsletter</h3>
+                <p>We'll send you a nice letter once per week. No spam.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+
+            </div>
+
+               <div class="footer-links">
+                     <div class="brand">
+                        <img src="./logo2.png" alt="office-logo">
+                         <!-- <p><strong>StyleNest</strong></p> -->
+                         <p>Craft stunning style journeys that weave more joy into every thread.</p>
+                    </div>
+                     <div class="categories">
+                         <h4>Shop Categories</h4>
+                            <ul>
+                               <li>Unisex</li>
+                               <li>Women</li>
+                               <li>Men</li>
+                           </ul>
+                     </div>
+                      <div class="collections">
+                            <h4>Shop Collections</h4>
+                            <ul>
+                               <li>Latest Arrivals</li>
+                               <li>Urban Oasis</li>
+                               <li>Cozy Comfort</li>
+                               <li>Fresh Fusion</li>
+                            </ul>
+                      </div>
+               </div>
+               <!-- social site start -->
+                <div class="social-media">
+                    <a href="https://www.youtube/" target="_social_site" class="facebook">
+                        <i class="fa-brands fa-youtube">Youtube</i>
+                       </a>
+                       <a href="https://www.facebook.com/" target="_social_site" class="facebook">
+                        <i class="fa-brands fa-facebook">Facebook</i>
+                       </a>
+                       <a href="https://www.instagram.com/" target="_social_site" class="instagram">
+                        <i class="fa-brands fa-instagram">Instagam</i>
+                       </a>
+                       <a href="https://x.com/" target="_blank" class="x-twitter">
+                        <i class="fa-brands fa-twitter">Tweeter</i>
+                       </a>
+                </div>
+               
+                <!-- social site end -->
+               <div class="footer-bottom">
+                <p>&copy; 2024 StyleNest, Inc. All rights reserved.</p>
+               </div>
+               
+           </div>
+        </footer>
+       <!-- Footer Section End-->
+</body>
+</html>
